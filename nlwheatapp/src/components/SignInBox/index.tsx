@@ -4,7 +4,7 @@ import { styles } from './styles'
 import { Button } from '../Button'
 import { COLORS } from '../../theme'
 
-export default function SignInBox() {
+export function SignInBox() {
     return (
         <View style={styles.container}>
             <Button
